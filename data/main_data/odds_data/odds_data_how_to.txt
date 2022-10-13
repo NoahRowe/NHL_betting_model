@@ -1,0 +1,1 @@
+Odds data can be downloaded for free from https://sportsbookreviewsonline.com/scoresoddsarchives/nhl/nhloddsarchives.htm (not affiliated). No inital preprocessing is required, it is all handled through the use of the odds functions in dataset_functions.py, just confirm that the filenames are correct.

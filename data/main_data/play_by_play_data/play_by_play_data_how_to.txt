@@ -1,0 +1,1 @@
+Run download_pbp_data.py in this directory to download the play-by-play datasets provided by the National Hockey League from the 2007-2008 season to present. 
