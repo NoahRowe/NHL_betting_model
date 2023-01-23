@@ -59,10 +59,12 @@ Three flavours of the bankroll loss function were tried: straight unit betting, 
 In the end, this project was unable to demonstrate consistently profitable behaviour. Win prediction models were able to achieve accuracy values ~61% on testing datasets, which agrees with standard literature values for machine learning predictions for NHL games. This accuracy value was not 
 
 Examples of model performance on unseen data are shown below. 
-<!-- 
+
 <p align="center">
-  <img width="600" height="500" src="model_images/betting_model.png">
-</p> -->
+  <img width="700" height="400" src="model_images/NHL_final_model_example.png">
+</p>
+
+Each simulation starts with 300 bets, and is restricted to unit betting with a bet size of $10. In this example, we see that the model loses money in each simulation. This can be repeated with different models/loss functions using [standard_betting_model.ipynb](standard_betting_model.ipynb).
 
 ## Next Steps
 In the future, there are a couple of ways in which I would like to extend this analysis. To begin, the analysis of current work in the field should be redone. My original exploration into existing work was over a year ago (late 2021), and much can be expected to have changed since then. Specific attention should also be paid to data sources and data formatting, as this was found to be the most important aspect of model development. Even with the most appropriate architecture and loss function, if the underlying data is not sufficient to create accurate predictions, there will be no opportunity for success. Lastly, a general review of the loss functions and model architectures experimented with should be completed. This stage of the project should be well documented and provide logical insight towards design decisions for a final model. Currently, many of the design items iterated over were done informally and should be done scientifically and rigorously. 
