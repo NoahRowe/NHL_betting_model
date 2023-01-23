@@ -1,10 +1,10 @@
 '''
-Code to configure gpu training for tensorflow.
+Code to configure gpu training for tensorflow. Can be toggled on or off
+when training models.
 '''
 
 
 import warnings
-
 import tensorflow as tf
 
 hline = f"{'':-<80}"
